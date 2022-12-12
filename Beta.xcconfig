@@ -1,0 +1,12 @@
+//
+//  Beta.xcconfig
+//  CustomApp
+//
+//  Created by Devkaran's Mac mini on 08/12/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_URL = https:/$()/beta.api.com
+PRODUCT_BUNDLE_IDENTIFIER = com.gtcsys.customapp
+PRODUCT_NAME = Custom-Beta
