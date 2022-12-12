@@ -26,6 +26,7 @@
 		5E6556EF2941CFD9003D1216 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		5E6556F12941CFEB003D1216 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		5E6556F32941D18D003D1216 /* Comman.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Comman.xcconfig; sourceTree = SOURCE_ROOT; };
+		5EDBF87B29476D300098C40D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5EE7DDC12940B51C007BE117 /* Custom-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE7DDC42940B51C007BE117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EE7DDC62940B51C007BE117 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EDBF87A29476D300098C40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EDBF87B29476D300098C40D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5EE7DDB82940B51C007BE117 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +65,7 @@
 				5E6556EB2941CFAC003D1216 /* Debug.xcconfig */,
 				5EE7DDC32940B51C007BE117 /* CustomApp */,
 				5EE7DDC22940B51C007BE117 /* Products */,
+				5EDBF87A29476D300098C40D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

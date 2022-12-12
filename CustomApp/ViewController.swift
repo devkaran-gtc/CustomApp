@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         }
         
         if let bundleId = Bundle.main.object(forInfoDictionaryKey: "BUNDLE_IDENTIFIER") {
-            print("Current Bundle: \(bundleId)")
+            print("Current Bundle is : \(bundleId)")
         }
         
         let titleLabel = {
