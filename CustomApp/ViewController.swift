@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let url = Bundle.main.object(forInfoDictionaryKey: "API_URL") {
-            print("Current url: \(url)")
+            print("Current URL: \(url)")
         }
         
         if let bundleId = Bundle.main.object(forInfoDictionaryKey: "BUNDLE_IDENTIFIER") {
