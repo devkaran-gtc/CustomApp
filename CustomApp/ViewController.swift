@@ -25,6 +25,7 @@ class ViewController: UIViewController {
             }
             label.textColor = .white
             label.textAlignment = .center
+            
             return label
         }()
         view.addSubview(titleLabel)
